@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px;
+  }
+  
+  .container .volver{
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  
+  #video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .cajapadre {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .caja {
+      margin: 15px;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px;
+  }
+  
+  input[type="text"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+  }
+  
+  input[type="text"]:hover{
+      background-color: #F6E9B2;
+  }
+  
+  button[type="button"] {
+    background-color: #F3CA52;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+   .caja .boton2 { 
+       background-color: #7ABA78;  
+   } 
+   .caja:nth-child(2)  
+   .caja:nth-child(3)
+   .caja:nth-child(4) .boton2 { 
+       background-color: #7ABA78;  
+   } 
+  
+  .boton2[type="button"]:hover {
+    background-color: #0A6847;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #F97300;
+  }
+  
+  p {
+    margin: 10px;
+  }
+  
+  .volver button{
+    background-color: #FC4100;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .volver button:hover {
+    background-color: #E65C19;
+  }

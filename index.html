@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AREAS Y PERIMETROS DE FIGURAS PLANAS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <video autoplay loop muted id="video-background">
+            <source src="Videos/video7.mp4" type="video/mp4">
+        </video>
+        <h1>INTRODUZCA LOS NUMEROS</h1>
+        <div class="cajapadre">
+            <div class="caja">
+                <h2>CIRCULO</h2>
+                <form>
+                    <label for="radio">RADIO:</label>
+                    <input type="text" id="radio">
+                    <br>
+                    <button class="boton2" type="button" onclick="calcularAreaCirculo()">Area</button>
+                    <p id="area-circulo"></p>
+                    <button type="button" onclick="calcularPeriCirculo()">Perimetro</button>
+                    <p id="peri-circulo"></p>
+                </form>
+            </div>
+            <div class="caja">
+                <h2>CUADRADO</h2>
+                <form>
+                    <label for="lado">LADO:</label>
+                    <input type="text" id="lado">
+                    <br>
+                    <button class="boton2"  type="button" onclick="calcularAreaCuadrado()">Area</button>
+                    <p id="area-cuadrado"></p>
+                    <button type="button" onclick="calcularPeriCuadrado()">Perimetro</button>
+                    <p id="peri3-cuadrado"></p>
+                </form>
+            </div>
+            <div class="caja">
+                <h2>TRIANGULO</h2>
+                <form>
+                    <label for="base">BASE:</label>
+                    <input type="text" id="base">
+                    <label for="altura">ALTURA:</label>
+                    <input type="text" id="altura">
+                    <br>
+                    <button class="boton2" type="button" onclick="calcularAreaTriangulo()">Area</button>
+                    <p id="area-triangulo"></p>
+                    <label for="lado2">LADO 1:</label>
+                    <input type="text" id="lado2">
+                    <label for="lado3">LADO 2:</label>
+                    <input type="text" id="lado3">
+                    <label for="lado4">LADO 3:</label>
+                    <input type="text" id="lado4">
+                    <br>
+                    <button type="button" onclick="calcularPeriTriangulo()">Perimetro</button>
+                    <p id="peri2-triangulo"></p>
+                </form>
+            </div>
+            <div class="caja">
+                <h2>RECTANGULO</h2>
+                <form>
+                    <label for="base">BASE:</label>
+                    <input type="text" id="base2">
+                    <label for="altura">ALTURA:</label>
+                    <input type="text" id="altura2">
+                    <br>
+                    <button class="boton2" type="button" onclick="calcularAreaRectangulo()">Area</button>
+                    <p id="area-rectangulo"></p>
+                    <button type="button" onclick="calcularPeriRectangulo()">Perimetro</button>
+                    <p id="peri4-rectangulo"></p>
+                </form>
+            </div>
+        </div>
+        <div class="volver">
+            <a href="PPrincipal.html"><button>VOLVER</button></a>
+        </div>
+    </div>
+
+</body>
+</html>
+
