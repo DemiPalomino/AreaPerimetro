@@ -60,7 +60,7 @@ function validarInput(event) {
 }
 
 // Aqui agregamos eventos de escucha a los campos de entrada.
-document.addEventListener('click', () => {
+document.addEventListener('keydown', () => {
   const inputs2 = document.querySelectorAll('input[type="text"]');
   inputs2.forEach((inputs2) => {
     inputs2.addEventListener('keypress', validarInput);
