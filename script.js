@@ -63,6 +63,6 @@ function validarInput(event) {
 document.addEventListener('DOMContentLoaded', () => {
   const inputs2 = document.querySelectorAll('input[type="text"]');
   inputs2.forEach((inputs2) => {
-    inputs2.addEventListener('click', validarInput);
+    inputs2.addEventListener('keypress', validarInput);
   });
 });
