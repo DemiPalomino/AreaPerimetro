@@ -18,7 +18,8 @@
                 <h2>CIRCULO</h2>
                 <form>
                     <label for="radio">RADIO:</label>
-                    <input type="text" id="radio">
+                    <input type="text" id="radio" maxlength="10" placeholder="Solo caracteres Numericos" class="form-control"
+              required autocomplete="off" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1" />>
                     <br>
                     <button class="boton2" type="button" onclick="calcularAreaCirculo()">Area</button>
                     <p id="area-circulo"></p>
